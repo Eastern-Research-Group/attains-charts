@@ -1,0 +1,69 @@
+body { font-family: arial; }
+div { padding: 1px 1px 1px 1px; }
+label { color: "Gray" }
+.initcap { text-transform: capitalize }
+.fy { grid-area: fy }
+/* .cumulative { grid-area: cumulative } */
+.states { grid-area: states }
+.pollgrp { grid-area: pollgrp }
+.poll { grid-area: poll }
+.wrapper {
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-areas:
+      "fy           states  pollgrp"
+      "cumulative   states  poll"
+   }
+#downloadDate {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: blue;
+}
+
+div.google-visualization-tooltip {
+  white-space: nowrap;
+  height: 10px;
+  border-radius: 10px;
+  border: 1px solid #435279;
+  padding: 10px;
+  color: #3d4f61;
+}
+
+#poll_legend {
+  text-align: left;
+}
+
+.legend-marker {
+  font-size: 12px;
+}
+
+.legend-marker-color {
+  display: inline-block;
+  height: 12px;
+  width: 12px;
+}
+
+.subtitleCell {
+    position: relative;
+}
+
+.subtitleLineDiv {
+    width: 800px;
+    height: 350px;
+}
+
+.subtitleLabel {
+    position: relative;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: gray;
+}
+
+.pollGrpLegend {
+    width: 400px;
+    height: 800px;
+}
+
+.spacer {
+    height: 50px;
+}
